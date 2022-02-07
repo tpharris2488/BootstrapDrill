@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap Drills</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <!-- HEADING TEXT -->
+            <h1 class="col-6 text-center my-3">Bootstrap Project</h1>
+        </div>
+        <!-- </ROW> -->
+        <div class="row my-2">
+            <div class="col-4 justify-content-around">
+                <!-- TEXT #01 -->
+                <h4 class="text-left">Here is some text.</h4>
+            </div>
+            <div class="col-4 justify-content-around">
+                <!-- TEXT #02 -->
+                <h4 class="text-center">Here is some more text.</h4>
+            </div>
+            <div class="col-4 justify-content-around">
+                <!-- TEXT #03 -->
+                <h4 class="text-right">Here is even more text.</h4>
+            </div>
+        </div>
+        <!-- </ROW> -->
+        <!-- FORM -->
+        <form action="#">
+            <!-- EMAIL -->
+            <div class="form-group col-2">
+                <label for="myEmail">Email:</label>
+                <input type="email" class="form-control" id="myEmail" aria-describedby="emailHelp" placeholder="Email" required>
+            </div>
+            <!-- PASSWORD -->
+            <div class="form-group col-2">
+                <label for="myPassword">Password:</label>
+                <input type="password" class="form-control" id="myPassword" placeholder="Password" required>
+            </div>
+            <!-- CHECKBOX = CATS -->
+            <div class="form-check form-check-inline px-2">
+                <input type="checkbox" class="form-check-input" name="myCheck" id="cats">
+                <label for="cats" class="form-check-label">Cats</label>
+            </div>
+            <!-- CHECKBOX = DOGS -->
+            <div class="form-check form-check-inline px-2">
+                <input type="checkbox" class="form-check-input" name="myCheck" id="dogs">
+                <label for="dogs" class="form-check-label">Dogs</label>
+            </div>
+            <!-- RADIO BUTTON = CHEESE PIZZA -->
+            <div class="form-check mx-2 mt-2">
+                <input class="form-check-input" type="radio" name="myRadio" id="cheesePizza" checked>
+                <label class="form-check-label" for="cheesePizza">Cheese Pizza</label>
+            </div>
+            <!-- RADIO BUTTON = Hawaiian PIZZA -->
+            <div class="form-check mx-2">
+                <input class="form-check-input" type="radio" name="myRadio" id="HawaiianPizza" checked>
+                <label class="form-check-label" for="vegetablePizza">Hawaiian Pizza</label>
+            </div>
+            <!-- RADIO BUTTON = Supreme PIZZA -->
+            <div class="form-check mx-2">
+                <input class="form-check-input" type="radio" name="myRadio" id="SupremePizza" checked>
+                <label class="form-check-label" for="meatPizza">Supreme Pizza</label>
+            </div>
+            <!-- SUBMIT BUTTON -->
+            <button type="submit" class="btn btn-lg btn-outline-dark mt-3">Submit!</button>
+        </form> <!-- </FORM> -->
+        
+        <!-- CARDS -->
+        <div class="row justify-content-around my-4">
+            <!-- OLIVIA -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header bg-light text-center">
+                        <h3>Olivia</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text mt-2">This is some text about my friend Olivia.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- John -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header bg-light text-center">
+                        <h3>John</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text mt-2">This is some text about my friend John.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Shane -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header bg-light text-center">
+                        <h3>Shane</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text mt-2">This is some text about my homie Shane.</p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- </ROW> -->
+
+        <div class="row justify-content-around my-4">
+            <!-- CALEB -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header bg-light text-center">
+                        <h3>Bobby</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text mt-2">This is some text about my friend Bobby.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- JONATHAN -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header bg-light text-center">
+                        <h3>Jack</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text mt-2">This is some text about my friend Jack.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Sally -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header bg-light text-center">
+                        <h3>Sally</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text mt-2">This is some text about my friend Sally.</p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- </ROW> -->
+
+    </div> <!-- </CONTAINER-FLUID> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
